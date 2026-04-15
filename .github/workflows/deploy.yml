@@ -1,0 +1,57 @@
+name: Deploy to GitHub Pages
+
+on:
+  # 当推送到 main 分支时触发
+  push:
+    branches: [ main ]
+
+  # 允许手动触发部署
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '部署原因'
+        required: false
+        default: 'Manual deployment'
+
+# 设置 GITHUB_TOKEN 的权限，允许部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 只允许一次部署进行
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # 构建和部署
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 构建
+        run: npm run build
+
+      - name: 上传到 GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload dist directory
+          path: './dist'
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
