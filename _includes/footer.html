@@ -1,0 +1,32 @@
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                {% include sns-links.html center=true %}
+
+                <p class="copyright text-muted">
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Search JavaScript -->
+<script src="{{ "/js/simple-jekyll-search.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/search.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/search-init.js " | prepend: site.baseurl }}"></script>
+
+<!-- Debug JavaScript -->
+<script src="{{ "/js/debug.js " | prepend: site.baseurl }}"></script>
