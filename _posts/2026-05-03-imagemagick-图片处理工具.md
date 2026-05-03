@@ -2,8 +2,8 @@
 layout: post
 title: "ImageMagick 网站解释"
 date: 2026-05-03
-tags: [网站解释, 工具, 效率, 图片处理, 开发工具]
-header-img: "img/post-bg-css.jpg"
+tags: [网站解释, 工具, 效率, 图片处理, 开发工具, 设计]
+header-img: "img/post-bg-imagemagick-01.jpg"
 ---
 
 > 原网址：https://imagemagick.org/index.php

@@ -2,8 +2,8 @@
 layout: post
 title: "Capture2Text 网站解释"
 date: 2026-05-03
-tags: [网站解释, 工具, 效率, OCR, 文字识别]
-header-img: "img/post-bg-css.jpg"
+tags: [网站解释, 工具, 效率, OCR, 文字识别, 自动化]
+header-img: "img/post-bg-capture2text-01.jpg"
 ---
 
 > 原网址：https://capture2text.sourceforge.net/
