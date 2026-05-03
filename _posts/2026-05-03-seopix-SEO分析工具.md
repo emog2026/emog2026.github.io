@@ -7,10 +7,6 @@ header-style: 'text'
 subtitle: "让图片在 Google 排名飙升的 AI 工具"
 ---
 
-> 原网址：https://www.seopix.io/
-
----
-
 # SEOPix
 
 ## 📌 一句话总结
