@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ImageMagick 网站解释"
+title: "免费强大的命令行图片处理工具：ImageMagick"
 date: 2026-05-03
 tags: [网站解释, 工具, 效率, 图片处理, 开发工具, 设计]
 header-style: 'text'

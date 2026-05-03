@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Capture2Text 网站解释"
+title: "一键提取屏幕文字的免费 OCR 工具：Capture2Text"
 date: 2026-05-03
 tags: [网站解释, 工具, 效率, OCR, 文字识别, 自动化]
 header-style: 'text'
