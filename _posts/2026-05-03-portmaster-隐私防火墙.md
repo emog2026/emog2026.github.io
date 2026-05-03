@@ -2,7 +2,7 @@
 layout: post
 title: "夺回网络控制权：Portmaster 隐私防火墙"
 date: 2026-05-03
-tags: [网站解释, 工具, 隐私, 安全, 防火墙]
+tags: [工具, 隐私, 安全, 防火墙]
 header-style: 'text'
 subtitle: "免费开源的应用防火墙，让所有网络连接透明可控"
 ---

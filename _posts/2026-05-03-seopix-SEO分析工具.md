@@ -2,7 +2,7 @@
 layout: post
 title: "让图片在 Google 排名飙升的 AI 工具：SEOPix"
 date: 2026-05-03
-tags: [网站解释, 工具, 效率, SEO, 图片优化]
+tags: [工具, 效率, SEO, 图片优化]
 header-style: 'text'
 subtitle: "让图片在 Google 排名飙升的 AI 工具"
 ---

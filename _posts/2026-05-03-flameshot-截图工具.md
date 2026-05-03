@@ -2,7 +2,7 @@
 layout: post
 title: "免费开源的截图标注工具：Flameshot"
 date: 2026-05-03
-tags: [网站解释, 工具, 效率, 截图]
+tags: [工具, 效率, 截图]
 header-style: 'text'
 subtitle: "免费开源的截图工具，截完直接在图上标注、编辑、分享"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "一键提取屏幕文字的免费 OCR 工具：Capture2Text"
 date: 2026-05-03
-tags: [网站解释, 工具, 效率, OCR, 文字识别, 自动化]
+tags: [工具, 效率, OCR, 文字识别, 自动化]
 header-style: 'text'
 subtitle: "免费的屏幕 OCR 工具，一键截取屏幕文字转成可编辑文本"
 ---
