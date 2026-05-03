@@ -7,7 +7,7 @@ header-style: 'text'
 subtitle: "免费的屏幕 OCR 工具，一键截取屏幕文字转成可编辑文本"
 ---
 
-> 原网址：https://capture2text.sourceforge.net/
+> 原网址：<a href="https://capture2text.sourceforge.net/" target="_blank">https://capture2text.sourceforge.net/</a> 🡕
 
 ---
 

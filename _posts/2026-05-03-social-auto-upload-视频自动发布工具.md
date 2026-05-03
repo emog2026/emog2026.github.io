@@ -7,7 +7,7 @@ header-style: 'text'
 subtitle: "一键自动发布视频到国内外多个主流社交媒体平台"
 ---
 
-> 原网址：https://github.com/dreammis/social-auto-upload
+> 原网址：<a href="https://github.com/dreammis/social-auto-upload" target="_blank">https://github.com/dreammis/social-auto-upload</a> 🡕
 
 ---
 

@@ -7,7 +7,7 @@ header-style: 'text'
 subtitle: "免费的瑞士军刀，用命令行批量处理、转换、编辑图片"
 ---
 
-> 原网址：https://imagemagick.org/index.php
+> 原网址：<a href="https://imagemagick.org/index.php" target="_blank">https://imagemagick.org/index.php</a> 🡕
 
 ---
 

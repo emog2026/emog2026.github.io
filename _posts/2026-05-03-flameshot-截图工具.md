@@ -7,7 +7,7 @@ header-style: 'text'
 subtitle: "免费开源的截图工具，截完直接在图上标注、编辑、分享"
 ---
 
-> 原网址：https://flameshot.org/
+> 原网址：<a href="https://flameshot.org/" target="_blank">https://flameshot.org/</a> 🡕
 
 ---
 
