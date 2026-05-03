@@ -1111,7 +1111,7 @@ samp {
   -o-background-size: cover;
   margin-bottom: 0px;
   /* 0 on mobile, modify by Hux */
-  max-height: 350px;
+  max-height: 200px;
   overflow: hidden;
 }
 .intro-header.style-text {
