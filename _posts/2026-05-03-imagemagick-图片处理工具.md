@@ -3,7 +3,8 @@ layout: post
 title: "ImageMagick 网站解释"
 date: 2026-05-03
 tags: [网站解释, 工具, 效率, 图片处理, 开发工具, 设计]
-header-img: "免费的瑞士军刀，用命令行批量处理、转换、编辑图片"
+header-style: 'text'
+subtitle: "免费的瑞士军刀，用命令行批量处理、转换、编辑图片"
 ---
 
 > 原网址：https://imagemagick.org/index.php

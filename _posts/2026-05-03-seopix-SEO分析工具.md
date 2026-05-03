@@ -3,7 +3,8 @@ layout: post
 title: "SEOPix 网站解释"
 date: 2026-05-03
 tags: [网站解释, 工具, 效率, SEO, 图片优化]
-header-img: "让图片在 Google 排名飙升的 AI 工具"
+header-style: 'text'
+subtitle: "让图片在 Google 排名飙升的 AI 工具"
 ---
 
 > 原网址：https://www.seopix.io/
