@@ -776,6 +776,7 @@ priorityClassName: ""
 
 **templates/deployment.yaml**：
 ```yaml
+{% raw %}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -845,10 +846,12 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+{% endraw %}
 ```
 
 **templates/_helpers.tpl**：
 ```yaml
+{% raw %}
 {{/*
 Expand the name of the chart.
 */}}
@@ -898,6 +901,7 @@ Selector labels
 app.kubernetes.io/name: {{ include "webapp.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
+{% endraw %}
 ```
 
 **效果**：创建一个功能完整的 Chart，支持多环境配置、自动扩展、资源限制和健康检查
@@ -1470,6 +1474,7 @@ CMD ["node", "dist/index.js"]
 
 **解决方案**：
 ```yaml
+{% raw %}
 # 不推荐
 kind: Deployment
 spec:
@@ -1479,6 +1484,7 @@ spec:
 kind: Deployment
 spec:
   replicas: {{ .Values.replicaCount }}
+{% endraw %}
 ```
 
 **预防措施**：遵循"一切皆可配置"原则，所有可变值都应通过 Values 传递
@@ -1561,6 +1567,7 @@ version: 1.2.3  # MAJOR.MINOR.PATCH
 
 **解决方案**：
 ```yaml
+{% raw %}
 {{/*
 定义命名辅助函数
 */}}
@@ -1577,6 +1584,7 @@ metadata:
   name: {{ include "mychart.fullname" . }}
   labels:
     app.kubernetes.io/name: {{ include "mychart.name" . }}
+{% endraw %}
 ```
 
 **预防措施**：始终使用 Helm 命名辅助函数生成资源名称
