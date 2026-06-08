@@ -1,0 +1,370 @@
+---
+layout: page
+title: "周刊"
+description: "每周精选内容汇总"
+header-img: "img/bg-weekly.jpg"
+header-mask: 0.3
+---
+
+<style>
+    .weekly-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .weekly-header {
+        text-align: center;
+        margin-bottom: 60px;
+        padding: 40px 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 15px;
+        color: white;
+    }
+
+    .weekly-header h1 {
+        font-size: 2.5em;
+        margin: 0 0 10px 0;
+        font-weight: 700;
+    }
+
+    .weekly-header p {
+        font-size: 1.2em;
+        margin: 0;
+        opacity: 0.9;
+    }
+
+    .weekly-edition {
+        background: white;
+        border-radius: 12px;
+        padding: 30px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-left: 5px solid #667eea;
+    }
+
+    .edition-number {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .edition-date {
+        color: #666;
+        font-size: 0.9em;
+        margin-left: 15px;
+    }
+
+    .edition-title {
+        font-size: 2em;
+        margin: 20px 0;
+        color: #333;
+        font-weight: 700;
+    }
+
+    .edition-section {
+        margin: 30px 0;
+    }
+
+    .section-title {
+        font-size: 1.3em;
+        color: #667eea;
+        margin-bottom: 15px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+    }
+
+    .section-title::before {
+        content: "▸";
+        margin-right: 10px;
+        color: #764ba2;
+    }
+
+    .edition-item {
+        margin: 15px 0;
+        padding: 15px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    .edition-item:hover {
+        transform: translateX(5px);
+    }
+
+    .item-title {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 8px;
+        font-size: 1.1em;
+    }
+
+    .item-description {
+        color: #666;
+        line-height: 1.6;
+        margin: 8px 0;
+    }
+
+    .item-link {
+        display: inline-block;
+        margin-top: 10px;
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .item-link:hover {
+        text-decoration: underline;
+    }
+
+    .tag {
+        display: inline-block;
+        background: #e9ecef;
+        padding: 3px 10px;
+        border-radius: 12px;
+        font-size: 0.8em;
+        margin-left: 10px;
+        color: #666;
+    }
+
+    .archive-button {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .archive-button a {
+        display: inline-block;
+        padding: 15px 40px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: 600;
+        transition: transform 0.2s;
+    }
+
+    .archive-button a:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<div class="weekly-container">
+    <div class="weekly-header">
+        <h1>📰 技术周刊</h1>
+        <p>每周精选技术资讯，让知识与灵感同行</p>
+    </div>
+
+    <!-- 第1期 -->
+    <div class="weekly-edition">
+        <div>
+            <span class="edition-number">第 1 期</span>
+            <span class="edition-date">2026年6月第1周</span>
+        </div>
+        <h2 class="edition-title">AI 工具新浪潮</h2>
+
+        <div class="edition-section">
+            <div class="section-title">🚀 本周热点</div>
+
+            <div class="edition-item">
+                <div class="item-title">Claude 4.6 发布重大更新</div>
+                <div class="item-description">
+                    Anthropic 发布 Claude 4.6，在代码生成、多模态理解和工具使用方面实现显著突破。
+                    新增缓存机制，大幅降低长文本处理的成本和延迟。
+                </div>
+                <a href="https://www.anthropic.com" class="item-link" target="_blank">查看详情 →</a>
+                <span class="tag">AI</span>
+                <span class="tag">LLM</span>
+            </div>
+
+            <div class="edition-item">
+                <div class="item-title">FreeLLMAPI 开源项目爆火</div>
+                <div class="item-description">
+                    一个免费的大模型 API 聚合平台在 GitHub 上获得 10k+ stars，
+                    整合了多家厂商的免费 API 接口，为开发者提供统一的调用接口。
+                </div>
+                <a href="https://github.com" class="item-link" target="_blank">查看项目 →</a>
+                <span class="tag">开源</span>
+                <span class="tag">API</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">💡 技术洞见</div>
+
+            <div class="edition-item">
+                <div class="item-title">Prompt Engineering 最佳实践</div>
+                <div class="item-description">
+                    从零开始构建高质量提示词的完整指南。涵盖结构化提示、
+                    少样本学习、思维链等核心技巧，让你的 AI 交互效率提升 10 倍。
+                </div>
+                <a href="#" class="item-link">阅读文章 →</a>
+                <span class="tag">教程</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">🛠️ 工具推荐</div>
+
+            <div class="edition-item">
+                <div class="item-title">Pixelle Video - AI 短视频引擎</div>
+                <div class="item-description">
+                    全自动化的 AI 视频生成工具，输入脚本即可生成专业级短视频。
+                    支持 AI 配音、智能剪辑、自动配乐，让视频创作变得前所未有的简单。
+                </div>
+                <a href="#" class="item-link">立即体验 →</a>
+                <span class="tag">视频</span>
+                <span class="tag">AI工具</span>
+            </div>
+
+            <div class="edition-item">
+                <div class="item-title">PandaWiki 知识库系统</div>
+                <div class="item-description">
+                    AI 驱动的开源知识库管理系统，支持智能搜索、自动标签、
+                    知识图谱等功能，让知识管理进入智能化时代。
+                </div>
+                <a href="#" class="item-link">查看详情 →</a>
+                <span class="tag">知识管理</span>
+                <span class="tag">开源</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第2期 -->
+    <div class="weekly-edition">
+        <div>
+            <span class="edition-number">第 2 期</span>
+            <span class="edition-date">2026年6月第2周</span>
+        </div>
+        <h2 class="edition-title">Web 开发的未来</h2>
+
+        <div class="edition-section">
+            <div class="section-title">🔥 前端趋势</div>
+
+            <div class="edition-item">
+                <div class="item-title">HyperFrames 发布 2.0 版本</div>
+                <div class="item-description">
+                    革命性的前端框架，使用 AI 辅助的组件生成系统。
+                    新版本引入智能布局引擎，可以根据设计稿自动生成响应式代码。
+                </div>
+                <a href="#" class="item-link">查看更新 →</a>
+                <span class="tag">前端框架</span>
+                <span class="tag">AI</span>
+            </div>
+
+            <div class="edition-item">
+                <div class="item-title">WebGPU 浏览器支持率突破 80%</div>
+                <div class="item-description">
+                    随着 Safari 和 Firefox 的最新版本发布，WebGPU 现已在主流浏览器中得到广泛支持。
+                    这为网页端的 3D 渲染和 GPU 计算打开了新的大门。
+                </div>
+                <a href="#" class="item-link">阅读分析 →</a>
+                <span class="tag">Web技术</span>
+                <span class="tag">3D</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">📚 学习资源</div>
+
+            <div class="edition-item">
+                <div class="item-title">2026 年全栈开发路线图</div>
+                <div class="item-description">
+                    全新更新的开发指南，涵盖从基础到进阶的完整学习路径。
+                    特别新增了 AI 辅助开发、边缘计算、WebAssembly 等前沿内容。
+                </div>
+                <a href="#" class="item-link">查看路线图 →</a>
+                <span class="tag">学习</span>
+                <span class="tag">全栈</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">🎯 项目实战</div>
+
+            <div class="edition-item">
+                <div class="item-title">从零构建 AI 应用</div>
+                <div class="item-description">
+                    实战教程：使用 Claude API 构建一个智能代码审查助手。
+                    涵盖 API 调用、提示词设计、结果处理等完整流程。
+                </div>
+                <a href="#" class="item-link">开始学习 →</a>
+                <span class="tag">实战</span>
+                <span class="tag">AI应用</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第3期 -->
+    <div class="weekly-edition">
+        <div>
+            <span class="edition-number">第 3 期</span>
+            <span class="edition-date">2026年6月第3周</span>
+        </div>
+        <h2 class="edition-title">开发者效率提升</h2>
+
+        <div class="edition-section">
+            <div class="section-title">⚡ 效率工具</div>
+
+            <div class="edition-item">
+                <div class="item-title">Claude Code CLI 2.0 发布</div>
+                <div class="item-description">
+                    强大的命令行 AI 助手迎来重大更新。新增项目级记忆、
+                    自定义技能系统、并行任务执行等功能，开发效率提升 3 倍。
+                </div>
+                <a href="#" class="item-link">查看更新 →</a>
+                <span class="tag">开发工具</span>
+                <span class="tag">CLI</span>
+            </div>
+
+            <div class="edition-item">
+                <div class="item-title">GitHub Copilot Workspace 正式发布</div>
+                <div class="item-description">
+                    GitHub 推出的 AI 驱动开发环境，从需求分析到代码生成，
+                    从测试编写到文档生成，提供端到端的 AI 辅助开发体验。
+                </div>
+                <a href="#" class="item-link">了解详情 →</a>
+                <span class="tag">开发工具</span>
+                <span class="tag">GitHub</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">📖 深度阅读</div>
+
+            <div class="edition-item">
+                <div class="item-title">软件工程中的 AI 协作模式</div>
+                <div class="item-description">
+                    深入探讨如何将 AI 工具有效融入开发流程。
+                    分析成功案例，总结最佳实践，避免常见陷阱。
+                </div>
+                <a href="#" class="item-link">阅读全文 →</a>
+                <span class="tag">深度文章</span>
+                <span class="tag">软件工程</span>
+            </div>
+        </div>
+
+        <div class="edition-section">
+            <div class="section-title">🎨 创意项目</div>
+
+            <div class="edition-item">
+                <div class="item-title">AI 生成艺术作品集开源</div>
+                <div class="item-description">
+                    一个使用纯代码和 AI 工具生成的数字艺术作品集。
+                    展示了提示词工程与编程结合的无限可能。
+                </div>
+                <a href="#" class="item-link">浏览作品 →</a>
+                <span class="tag">生成艺术</span>
+                <span class="tag">创意编程</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="archive-button">
+        <a href="#">查看更多往期内容 →</a>
+    </div>
+</div>
