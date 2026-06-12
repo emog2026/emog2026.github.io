@@ -1119,6 +1119,7 @@ samp {
 }
 .intro-header.style-text {
   background: none;
+  max-height: none;
 }
 .intro-header.style-text .site-heading,
 .intro-header.style-text .post-heading,
