@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS 云平台的全科医生 — CloudWatch 监控服务"
+title: "AWS 云平台的全科医生：CloudWatch 监控服务"
 date: 2026-06-12
 tags: [知识, 开发, DevOps, AWS, 监控, 云计算]
 header-style: 'text'

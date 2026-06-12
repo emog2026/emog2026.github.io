@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "让AI自动把文章、代码或网页变成精美视频的工具 — html-video"
+title: "让AI自动把文章、代码或网页变成精美视频的工具：html-video"
 date: 2026-06-12
 tags: [开发, 视频, AI, 自动化]
 header-style: 'text'
