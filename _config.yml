@@ -74,8 +74,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: 
+ga_track_id: "G-LVDN9XKW6E" # Format: G-XXXXXXXXXX (GA4)
+ga_domain: auto 
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
